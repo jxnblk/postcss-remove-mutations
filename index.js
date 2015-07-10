@@ -52,6 +52,7 @@ module.exports = postcss.plugin('postcss-remove-mutations', function (opts) {
             ruleCss
           ].join('')
         })
+        result.warn(rule.selector + ' mutates ' + mutations.join() + ' and has been commented out.', { node: rule })
         rule.replaceWith(comment)
       }
     })
