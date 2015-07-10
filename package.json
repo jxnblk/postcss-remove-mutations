@@ -1,6 +1,6 @@
 {
   "name": "postcss-remove-mutations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Postcss plugin to comment out mutations of base styles from a stylesheet",
   "main": "index.js",
   "scripts": {
