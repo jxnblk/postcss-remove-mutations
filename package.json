@@ -1,0 +1,33 @@
+{
+  "name": "postcss-remove-mutations",
+  "version": "0.1.0",
+  "description": "Postcss plugin to comment out mutations of base styles from a stylesheet",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard",
+    "test": "mocha test"
+  },
+  "keywords": [
+    "css",
+    "immutable-css",
+    "oocss",
+    "postcss"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.9.1",
+    "postcss": "^4.1.11",
+    "specificity": "^0.1.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "standard": "^4.5.2"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
